@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Parent Profile</title>
+</head>
+<body>
+    <h1>Create Parent Profile</h1>
+    <form method="POST" action="/create_parent_profile" enctype="multipart/form-data">
+        <label for="parent_useridname">Parent User ID:</label>
+        <input type="text" name="parent_useridname" id="parent_useridname" required><br>
+
+        <label for="parent_password">Password:</label>
+        <input type="password" id="parent_password" name="parent_password" placeholder="Enter your password"><br>
+
+        <label for="parent_name">Parent Name:</label>
+        <input type="text" name="parent_name" id="parent_name" required><br>
+
+        <label for="parent_designation">Parent Designation:</label>
+        <input type="text" name="parent_designation" id="parent_designation" required><br>
+
+        <label for="parent_age">Parent Age:</label>
+        <input type="text" name="parent_age" id="parent_age" required><br>
+
+        <label for="parent_gender">Parent Gender:</label>
+        <input type="text" name="parent_gender" id="parent_gender" required><br>
+
+        <label for="parent_description">Parent Description:</label><br>
+        <textarea name="parent_description" id="parent_description" rows="4" cols="50"></textarea><br>
+
+        <label for="parent_about">About Parent:</label><br>
+        <textarea name="parent_about" id="parent_about" rows="4" cols="50"></textarea><br>
+
+        <label for="parent_phone">Parent Phone:</label>
+        <input type="tel" name="parent_phone" id="parent_phone"><br>
+
+        <label for="parent_email">Parent Email:</label>
+        <input type="email" name="parent_email" id="parent_email"><br>
+
+        <label for="parent_StreetAddress">Street Address:</label>
+        <input type="text" name="parent_StreetAddress" id="parent_StreetAddress"><br>
+
+        <label for="parent_city">City:</label>
+        <input type="text" name="parent_city" id="parent_city"><br>
+
+        <label for="parent_PostalCode">Postal Code:</label>
+        <input type="text" name="parent_PostalCode" id="parent_PostalCode"><br>
+
+        <label for="parent_country">Country:</label>
+        <input type="text" name="parent_country" id="parent_country"><br>
+
+        <label for="parent_Apartment">Apartment:</label>
+        <input type="text" name="parent_Apartment" id="parent_Apartment"><br>
+
+        <label for="parent_state">State:</label>
+        <input type="text" name="parent_state" id="parent_state"><br>
+
+        <label for="file">Upload Parent Image:</label>
+        <input type="file" name="file" id="file" accept="image/*"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
